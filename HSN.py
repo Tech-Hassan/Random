@@ -202,8 +202,8 @@ def hasil(ok,cp):
             print(f"\n {N}[{M}!{N}] Choose Y/t");hasil(ok,cp)
     else:
         jalan('\n\n %s[%s!%s] Sorry you didnt get results'%(N,M,N));exit()
-user = "SHAHZADA"
-pwas ="MR™Hassan"
+user = "Tech"
+pwas ="Hassan"
 def cek_pw():
     try:
         open(".ini_pw.txt", "r").read()
@@ -219,7 +219,7 @@ def cek_pw():
             jalan(f" {N}[{M}×{N}] Sorry, it is wrong...!");time.sleep(1);cek_pw()
         elif pil in["2","02"]:
             jalan("\n %s[%s•%s] %sYou will be redirected to the Author Whatsapp..."%(N,H,N,H));time.sleep(0.02)
-            os.system('xdg-open https://wa.me/601160610812?text=Hallo+izin+menggunakan+SC+ini');time.sleep(2);cek_pw()
+            os.system('xdg-open https://wa.me/+923486843174?text=Hallo+izin+menggunakan+SC+ini');time.sleep(2);cek_pw()
         elif pil in["1","01"]:
             print('%s══════════════════════════════════════════'%(N))
             print(' %s[%s!%s] You must have a %susername & password%s to\n continue with this tool!'%(N,M,N,H,N))
